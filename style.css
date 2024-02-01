@@ -533,4 +533,8 @@ hr {
     .image-card .img {
         width: 150px;
     }
+      .skills {
+        width: 130px;
+        height: 130px;
+    }
 }

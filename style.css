@@ -513,6 +513,13 @@ hr {
     .edu {
         width: 95%;
     }
+    .s i {
+    font-size: 30px;
+}
+     .skil {
+        width: 130px;
+        height: 130px;
+    }
 }
 
 @media screen and (max-width:570px) {
@@ -533,8 +540,5 @@ hr {
     .image-card .img {
         width: 150px;
     }
-      .skil {
-        width: 130px;
-        height: 130px;
-    }
+     
 }

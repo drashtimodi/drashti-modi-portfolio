@@ -296,6 +296,7 @@ hr {
 
 .peoject-car-sec {
     display: flex;
+    width:80%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -514,7 +515,7 @@ hr {
 
 @media screen and (max-width:570px) {
     .name {
-        font-size: 50px;
+        font-size: 40px;
     }
     .text {
         padding: 5px;

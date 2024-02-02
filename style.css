@@ -47,7 +47,7 @@ header {
 }
 
 .navbar {
-    width: 65%;
+    /* width: 65%; */
     display: flex;
     gap: 10px;
     justify-content: space-around;
@@ -60,7 +60,7 @@ header {
     color: rgb(255, 255, 255);
     padding: 8px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     gap: 6px;
@@ -84,12 +84,13 @@ header {
     min-height: 700px;
     padding: 20px;
     display: flex;
-    align-items: center;
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: center; */
 }
 
 .text {
     min-height: 400px;
-    padding: 0 60px;
+    padding-left: 60px;
     width: 60%;
     /* background-color: rgb(129, 79, 6); */
     display: flex;
@@ -214,7 +215,7 @@ header {
     /* margin-top: 0px; */
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    /* gap: 40px; */
     justify-content: space-between;
 }
 
@@ -295,12 +296,11 @@ hr {
 }
 
 .peoject-car-sec {
-    width:80%;
+    width: 80%;
     display: flex;
-    
     align-items: center;
     justify-content: center;
-/*     flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
     padding: 30px;
     margin: auto;
     gap: 30px;
@@ -450,95 +450,182 @@ hr {
     justify-content: center;
 }
 
-@media screen and (max-width:1274px) {
-    .name {
-        font-size: 65px;
-    }
+@media screen and (max-width:1358px) {
     .image img {
-        width: 400px;
+        width: 500px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .text-picture {
+        min-height: 600px;
+        /* align-items: center; */
+    }
+    .peoject-car-sec {
+        width: 90%;
+        justify-content: center;
+    }
+    .project-card {
+        width: 350px;
+        /* height: ; */
+        /* margin: 10px; */
     }
 }
 
+@media screen and (max-width:1250px) {
+    /* .project-card {
+        width: 300px;
+    } */
+    .abt-txt {
+        padding: 10px 5px 30px;
+    }
+    .all-skills {
+        width: 50%;
+        padding: 0px;
+    }
+}
 
-/* @media screen and (max-width:1292px) {} */
+@media screen and (max-width:1165px) {
+    .image img {
+        width: 400px;
+    }
+    .navbar {
+        font-size: 20px;
+    }
+    .project-card {
+        width: 250px;
+        height: 250px;
+    }
+    .image-card img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .project-name {
+        font-size: 17px;
+    }
+    .clg {
+        width: 450px;
+        padding: 30px 0;
+    }
+    /* .text-picture {
+        min-height: 600px;
+        align-items: center;
+    } */
+}
 
-@media screen and (max-width:1134px) {
+@media screen and (max-width:960px) {
     .text-picture {
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
     .text {
-        width: 80%;
+        width: 90%;
+    }
+    .abt-txt {
+        gap: 40px;
+        justify-content: center;
     }
     .all-skills {
         width: 90%;
     }
-    .nav {
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width:1096px) {
     .edu {
         width: 80%;
     }
 }
 
-@media screen and (max-width:760px) {
-    .navbar {
-        width: auto;
-        justify-content: center;
-        gap: 10px;
+@media screen and (max-width:885px) {
+    .peoject-car-sec {
+        width: 75%;
+        justify-content: start;
     }
+}
+
+@media screen and (max-width:716px) {
     .nav-link-title {
-        align-items: center;
         display: none;
     }
-    .image img {
-        width: 350px;
-    }
     .text {
-        width: 95%;
-        padding: 20px;
+        width: 97%;
+        padding-left: 10px;
     }
-    .footer hr {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width:650px) {
-    .name {
-        font-size: 60px;
-    }
-    .edu {
-        width: 95%;
-    }
-    .s i {
-    font-size: 30px;
-}
-     .skil {
-        width: 130px;
-        height: 130px;
-    }
-}
-
-@media screen and (max-width:570px) {
     .name {
         font-size: 40px;
     }
+    .all-skills {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:603px) {
+    .skil {
+        width: 140px;
+        height: 130px;
+        font-size: 16px;
+    }
+    .s i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .image img {
+        width: 300px;
+    }
     .text {
+        width: 100%;
+        padding-left: 2px;
+    }
+    .name {
+        font-size: 35px;
+    }
+    .abt-txt {
+        padding: 10px 0 30px;
+    }
+    .all-skills {
+        padding: 0px;
+    }
+    .skil {
+        width: 130px;
+        height: 130px;
         padding: 5px;
     }
+    .info {
+        font-size: 15px;
+    }
+    .social-section i {
+        font-size: 20px;
+    }
+    .copy {
+        font-size: 13px;
+    }
+    #contact {
+        font-size: 17px;
+        gap: 15px;
+    }
+    .navbar {
+        gap: 0px;
+    }
+    .txt {
+        font-size: 16px;
+        margin: 0px;
+    }
+    .clg {
+        width: 300px;
+        font-size: 16px;
+    }
+    .edu {
+        width: 99%;
+    }
+    .ed-title,
+    .title,
+    .t {
+        font-size: 28px;
+    }
     .project-card {
-        width: 330px;
-        height: 230px;
+        height: 200px;
     }
     .image-card img {
-        width: 250px;
-        height: 180px;
+        max-width: 200px;
+        max-height: 150px;
     }
-    .image-card .img {
-        width: 150px;
-    }
-     
 }
